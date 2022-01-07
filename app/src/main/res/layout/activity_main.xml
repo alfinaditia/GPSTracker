@@ -7,19 +7,42 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/jdltran2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="120dp"
+        android:text="Tracking Lapangan"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jdltran1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="152dp"
+        android:text="TRAN"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btnsignin"
         android:layout_width="336dp"
         android:layout_height="71dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="470dp"
         android:layout_marginEnd="39dp"
         android:layout_marginBottom="44dp"
-        android:text="LOGIN/REGISTER"
         android:background="@color/green"
+        android:text="LOGIN/REGISTER"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/forgetpassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,16 +51,27 @@
         android:layout_width="336dp"
         android:layout_height="71dp"
         android:layout_marginStart="37dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="357dp"
+        android:background="@color/blue"
         android:onClick="forgetpassword"
         android:text="FORGET/RESET PASSWORD"
-        android:background="@color/blue"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnsignin" />
+
+    <ImageView
+        android:id="@+id/sidomar"
+        android:layout_width="137dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sidomarlogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

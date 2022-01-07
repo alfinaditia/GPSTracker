@@ -12,16 +12,49 @@
         android:layout_width="336dp"
         android:layout_height="71dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="39dp"
         android:layout_marginBottom="401dp"
         android:background="@color/blue"
         android:onClick="Mylocation"
-        android:text="See Location"
+        android:text="Lihat Lokasi"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+    <TextView
+        android:id="@+id/jdltran2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="92dp"
+        android:text="Tracking Lapangan"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jdltran1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="164dp"
+        android:text="TRAN"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sidomar"
+        android:layout_width="92dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sidomarlogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
