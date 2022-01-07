@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720165415087",
+    "project_id": "gpstrackertran",
+    "storage_bucket": "gpstrackertran.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720165415087:android:7e1ce965cdefc14d91cc5a",
+        "android_client_info": {
+          "package_name": "com.example.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720165415087-rj18fm31s8vde6a1ccgta6vut2fqfs38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvCSPwCve1I9IvLuQAux1SLA4kQRIzB1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720165415087-rj18fm31s8vde6a1ccgta6vut2fqfs38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
